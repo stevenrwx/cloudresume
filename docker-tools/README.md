@@ -16,3 +16,8 @@ Run container
 ```
 docker run -it --rm toolbox bash
 ```
+OR 
+
+```
+./toolbox.sh
+```
