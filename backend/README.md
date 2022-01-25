@@ -1,6 +1,8 @@
 Goals:
 
 * provision backend - s3 (storage)
+https://www.deployawebsite.com/static-sites/s3-terraform/
+
 * cloudfront ssl/tls - aws cert manager
 * DNS - Amazon Route 53
 * AWS Lamda
@@ -10,4 +12,4 @@ Goals:
 
 TODO
 
-CI/CD for uploading
+CI/CD for uploading using AWS code pipeline, codecommit, codebuild, codedeploy
