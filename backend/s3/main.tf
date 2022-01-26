@@ -6,7 +6,7 @@ provider "aws" {
 
 resource "aws_s3_bucket" "steven-website-01" {
 	bucket = "steven-website-01"
-	acl = "public-read"
+	acl = "private"
 	policy = <<EOF
 {
   "Version": "2008-10-17",
