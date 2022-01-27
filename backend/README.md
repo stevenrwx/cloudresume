@@ -3,6 +3,9 @@ Goals:
 * provision backend - s3 (storage)
 https://www.deployawebsite.com/static-sites/s3-terraform/
 
+policy on buckets >
+https://docs.aws.amazon.com/AmazonS3/latest/userguide/example-bucket-policies.html
+
 * cloudfront ssl/tls - aws cert manager
 created a cloudfront distrubtion and whitelist of GB
 

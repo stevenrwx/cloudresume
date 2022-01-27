@@ -7,10 +7,11 @@ provider "aws" {
 resource "aws_s3_bucket" "steven-website-01" {
 	bucket = "steven-website-01"
 	acl = "private"
+/* policy to steven-website-01.s3.amazonaws.com/ */
 	policy = <<EOF
 {
-  "Version": "2008-10-17",
-  "Statement": [{
+    "Version": "2008-10-17",
+    "Statement": [{
     "Sid": "AllowPublicRead",
     "Effect": "Allow",
     "Principal": {
@@ -26,7 +27,6 @@ EOF
 	enabled = true
 	is_ipv6_enabled = true
 	default_root_object = "index.html"
-	aliases = ["www.sofcloud.link"]
 
 	origin {
 	  domain_name = "${aws_s3_bucket.steven-website-01.bucket_domain_name}"
