@@ -1,25 +1,30 @@
 Goals:
 
 * provision backend - s3 (storage)
-
-policy on buckets >
-https://docs.aws.amazon.com/AmazonS3/latest/userguide/example-bucket-policies.html
+>policy on buckets
 
 * cloudfront ssl/tls - aws cert manager
-created a cloudfront distrubtion and whitelist of GB
+>created ssl/tls cert for sofcloud.link
 
 * DNS - Amazon Route 53
+>created "A" record pointing to cdn (cloudflare url)
+
 * AWS Lamda
+
 * AWS IAM
+
 * Amazon DynamoDB
+
 * Amazon API gateway
 
 TODO
 
-CI/CD for uploading using AWS code pipeline, codecommit, codebuild, codedeploy
+* CI/CD for uploading using AWS code pipeline, codecommit, codebuild, codedeploy
+* Refactor main.tf into buckets.tf, cdn.tf, dns.tf, variables.tf
 
 QUICK fix
 
+* fix manual steps (SSL cert)
 
 ```
 terraform init
@@ -40,6 +45,5 @@ terraform apply
 
 ##ref section
 
-i) s3 creation ref: https://docs.aws.amazon.com/AmazonS3/latest/userguide/example-bucket-policies.html
-ii) s3 policy on buckets ref: https://docs.aws.amazon.com/AmazonS3/latest/userguide/example-bucket-policies.html
-
+* i) s3 creation ref: https://www.deployawebsite.com/static-sites/s3-terraform/creating-bucket/
+* ii) s3 policy on buckets ref: https://docs.aws.amazon.com/AmazonS3/latest/userguide/example-bucket-policies.html
