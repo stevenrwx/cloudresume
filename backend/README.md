@@ -1,7 +1,6 @@
 Goals:
 
 * provision backend - s3 (storage)
-https://www.deployawebsite.com/static-sites/s3-terraform/
 
 policy on buckets >
 https://docs.aws.amazon.com/AmazonS3/latest/userguide/example-bucket-policies.html
@@ -38,3 +37,9 @@ apply changes
 ```
 terraform apply
 ```
+
+##ref section
+
+i) s3 creation ref: https://docs.aws.amazon.com/AmazonS3/latest/userguide/example-bucket-policies.html
+ii) s3 policy on buckets ref: https://docs.aws.amazon.com/AmazonS3/latest/userguide/example-bucket-policies.html
+
