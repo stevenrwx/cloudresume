@@ -7,7 +7,7 @@ Goals:
 >created ssl/tls cert for sofcloud.link
 
 * DNS - Amazon Route 53
->created "A" record pointing to cdn (cloudflare url)
+>created DNS "A" record pointing to cdn (cloudflare url)
 
 * AWS Lamda
 
@@ -41,6 +41,7 @@ terraform plan
 apply changes
 ```
 terraform apply
+terraform apply -refresh-only
 ```
 
 ##ref section
