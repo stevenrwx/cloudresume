@@ -8,6 +8,7 @@ RUN mkdir bin/
 #Update
 RUN apk update
 RUN apk add --no-cache bash curl git openssh-client jq ansible vim
+RUN pip install boto3
 
 #Install Terraform
 RUN wget https://releases.hashicorp.com/terraform/1.1.4/terraform_1.1.4_linux_arm64.zip \

@@ -8,8 +8,14 @@ Goals:
 
 * DNS - Amazon Route 53
 >created DNS "A" record pointing to cdn (cloudflare url)
+** custom domain requires ssl cert from acm **
 
 * AWS Lamda
+>update dynamodb table, increment value +1
+>read the new value
+>output the value
+
+** aws lambda requires deployment packages **
 
 * AWS IAM
 
@@ -48,3 +54,5 @@ terraform apply -refresh-only
 
 * i) s3 creation ref: https://www.deployawebsite.com/static-sites/s3-terraform/creating-bucket/
 * ii) s3 policy on buckets ref: https://docs.aws.amazon.com/AmazonS3/latest/userguide/example-bucket-policies.html
+* iii) aws lambda deployment ref: https://docs.aws.amazon.com/lambda/latest/dg/gettingstarted-package.html
+
