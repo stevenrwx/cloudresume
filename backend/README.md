@@ -56,3 +56,6 @@ terraform apply -refresh-only
 * ii) s3 policy on buckets ref: https://docs.aws.amazon.com/AmazonS3/latest/userguide/example-bucket-policies.html
 * iii) aws lambda deployment ref: https://docs.aws.amazon.com/lambda/latest/dg/gettingstarted-package.html
 * iv) aws boto3 dynamodb ref: https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/dynamodb.html#DynamoDB.Client.update_item
+* v) terraform docs on api gateway creation ref: https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/api_gateway_rest_api
+* vii) aws api gateway docs ref https://docs.aws.amazon.com/apigateway/latest/developerguide/welcome.html
+
