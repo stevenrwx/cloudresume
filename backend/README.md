@@ -55,4 +55,4 @@ terraform apply -refresh-only
 * i) s3 creation ref: https://www.deployawebsite.com/static-sites/s3-terraform/creating-bucket/
 * ii) s3 policy on buckets ref: https://docs.aws.amazon.com/AmazonS3/latest/userguide/example-bucket-policies.html
 * iii) aws lambda deployment ref: https://docs.aws.amazon.com/lambda/latest/dg/gettingstarted-package.html
-
+* iv) aws boto3 dynamodb ref: https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/dynamodb.html#DynamoDB.Client.update_item
