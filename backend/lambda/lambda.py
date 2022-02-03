@@ -18,7 +18,14 @@ def lambda_handler(event, context):
         TableName='VistorCount',
         Key={"count_id": { "N" : "0" }})
 
+    data = json.dumps(response, indent=2)
+    data = json.loads(data)
+    for v in data:
+        result = (v, ":", data["Item"]["vistor"]["N"])
+        result = result[2]
+
     return {
             'statusCode': 200,
-            'body': response
+            'body': result
             }
+
