@@ -16,12 +16,18 @@ Goals:
 >output the value
 
 ** aws lambda requires deployment packages **
+>zip the lambda
+>created lambda permissions to allow invokation by api gateway
 
 * AWS IAM
+>created an IAM role for lambda
+>created specific dynamodb full access to update table
 
 * Amazon DynamoDB
+>created a "pay per request" database
 
-* Amazon API gateway
+* Amazon API gateway REST api
+>created a url to invoke lambda function
 
 TODO
 
