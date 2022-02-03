@@ -27,4 +27,3 @@ https://cloudresumechallenge.dev/docs/the-challenge/aws/
 
 14. Add cloudwatch dashboards
 
-15. Provision EC2 Instance that hosts wordpress, running with ASG with ELB
