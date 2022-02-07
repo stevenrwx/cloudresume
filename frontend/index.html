@@ -1,3 +1,123 @@
-<h1> hello </h1>
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cloud Resume</title>
+<link rel="stylesheet" href="resume.css">
 
+</head>
+<div>
+  <script>
+      fetch(' ')
+        .then(() => fetch (' '))
+        .then(response => response.json())
+        .then((data) => {
+            document.getElementById('clicks').innerText = data['N']
+        })
+  </script><h3 id="count">Visitors: <a id="clicks"></a></h3>
+<body>
+</div>
+<div id="resume">
+<h1>Steven Belacel-Rincon</h1>
+<div class="show-desktop">
+  <h2>
+    Steven.Rincon@outlook.com
+    <span class="diamondSymbol">&#10070;</span> London, UK
+  </h2>
+</div>
+<hr>
+<br>
 
+<h3>PROJECTS</h3>
+<hr>
+
+<div class="show-desktop">
+  <h3 class="headline">Cloud Resume Challenge<span class="jobDate">Jan. 2022</span></h3>
+</div>
+<ul>
+  <li>Resume web page written using HTML/CSS and javascript.</li>
+  <li>Published using AWS S3 static website hosting, SSL certificate and domain name/routing done through AWS.</li>
+  <li>Back end utilizes AWS's DynamoDB.  Communication between DB and web page done via AWS API Gateway and Lambda</li>
+  <li>AWS infrastructure deployed via Terraform </li>
+  <li>Source control, CI/CD accomplished through GitHub actions.</li>
+</ul>
+
+<h3 style="padding: 0.9% 0% 0% 0%">WORK EXPERIENCE</h3>
+<hr>
+
+<h3 class="headline"> 90 Percent Of Everything  <span class="jobDate">March 2021 - Feb 2022</span></h3>
+<h3 class="jobTitle">Support Engineer <span class="jobLocation">Remote</span></h3>
+<p>
+    Supporting several teams in the organisation and main application OpenOcean Studio in the Maritime Industry
+</p>
+<ul>
+  <li>Supported 15+ mission critical applications running on Kubernetes in production, staging, developer 
+environments</li>
+  <li>Opened and manage technical communication within 15minute SLA for company-wide IT outages 
+directly impacting users and customers</li>
+  <li>Ensuring applications are monitored using Grafana and Prometheus</li>
+  <li>Provided support through the service desk for internal staff using ITIL principles including automating 
+tasks</li>
+  <li>Provisioning access to staff for AWS, EKS clusters, Mongodb, PostgresDB, OpenVPN, Vault secrets using 
+Terraform</li>
+  <li>Escalating issues to QA team for end-to-end tests using Cypress and Puppeteer</li>
+  <li>Diagnosing and analysing Linux servers, Kubernetes pods, Apache Kafka pipelines in an event driven 
+system using microservices</li>
+   <li>Participate in on-call support rotation</li>
+</ul>
+
+<h3>Hornbill <span class="jobDate">March 2020 - December 2020</span></h3>
+<h3 class="jobTitle">Junior Cloud Engineer <span class="jobLocation">London</span></h3>
+<p>
+    Member of the Cloud team, providing support to Hornbill's private cloud infrastructure across data centres in 
+UK and North America.
+</p>
+<ul>
+  <li>Composed 10+ knowledge articles to train current and new team members for operational processes</li>
+  <li>Analysing logs from applications using Elasticsearch</li>
+  <li>Creating and managing MariaDB databases for new customers in Ansible</li>
+  <li>Designing Grafana dashboards for the team using Prometheus for troubleshooting performance</li>
+  <li>Managing backups using Bacula and S3 buckets of customers instances</li>
+  <li>Created and performed a upgrade to developer environment from Window Server 2008 to 2019 using 
+Ansible</li>
+   <li>Deploying patches, running queries on databases and upgrading Xen-Hypervisors</li>
+</ul>
+
+<h3>Firebrand Training <span class="jobDate">March 2017 - November 2018</span></h3>
+<h3 class="jobTitle">Development Support Technician Apprentice <span class="jobLocation">London</span></h3>
+<p>Member of the MIS team, providing support to Firebrand's internal staff and Infrastructure across offices and 
+training centres located throughout  London, Bedfordshire, Holland and Germany</p>
+<ul>
+  <li>Provided Tier 2 & 3 support onsite dealing with troubleshooting, creating  user accounts, repair hardware 
+and software failures</li>
+  <li>Setup workstations with dual monitors, Desktop PC, VOIP devices, Projectors and test equipment</li>
+  <li>Upgraded Firebrand's Asset management database with a mobile handset with the ability to scan bar codes 
+and update records while on site</li>
+  <li>Responsible for day-to-day deployments of Windows operating systems using PXE booting with WDS 
+(Windows Deployment Server) to deploy workstations in classrooms seperated by IP subnets</li>
+  <li>Improved Windows deployement images to the standards provided from the vendors using DISM and 
+autounattend.xml for automated deployments</li>
+</ul>
+
+<h3>London Borough Of Haringey Council<span class="jobDate">December 2015 - January 2017</span></h3>
+<h3 class="jobTitle">IT Support <span class="jobLocation">London</span></h3>
+<p>Providing Tier 1 & 2 technical support for the Environment and Road Work department for applications, CRM 
+support, Custom reporting, SQL database management and querying and helping the field engineers with GIS 
+support</p>
+<ul>
+  <li>Running SQL queries for teams</li>
+  <li>Creating User accounts for CRM application</li>
+  <li>Troubleshooting Windows 7 issues with printers and network</li>
+  <li>Helped  deploy mobile devices to locate trees and road works for Haringey's highways inspectors, tree 
+officers and street lighting surveyors</li>
+  </ul>
+ 
+<h3>SKILLS & INTERESTS</h3>
+<hr>
+<ul>
+  <li><strong>Skills: </strong>Linux, Bash scripting, HTML/CSS/Javascript, TCP/IP, Monitoring, AWS services, Docker, Kubernetes, Databases, Virtualisation </li>
+  <li><strong>Interests: </strong>Fitness, Devops, Problem Solving, Communication, Critical Thinking </li>
+</ul>
+</div>
+</body>
+</html>
