@@ -8,11 +8,11 @@
 </head>
 <div>
   <script>
-      fetch(' ')
-        .then(() => fetch (' '))
+      fetch('https://7l6xw02d23.execute-api.eu-west-2.amazonaws.com/api/vistorapi')
+        .then(() => fetch ('https://7l6xw02d23.execute-api.eu-west-2.amazonaws.com/api/vistorapi'))
         .then(response => response.json())
         .then((data) => {
-            document.getElementById('clicks').innerText = data['N']
+            document.getElementById('clicks')
         })
   </script><h3 id="count">Visitors: <a id="clicks"></a></h3>
 <body>
