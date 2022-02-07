@@ -9,7 +9,6 @@
 <div>
   <script>
       fetch('https://7l6xw02d23.execute-api.eu-west-2.amazonaws.com/api/vistorapi')
-        .then(() => fetch ('https://7l6xw02d23.execute-api.eu-west-2.amazonaws.com/api/vistorapi'))
         .then(response => response.json())
         .then((data) => {
             document.getElementById('clicks')
