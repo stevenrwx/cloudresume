@@ -11,7 +11,7 @@
       fetch('https://1ubuyluhxk.execute-api.eu-west-2.amazonaws.com/api/vistorapi')
         .then(response => response.json())
         .then((data) => {
-            document.getElementById('clicks')
+            document.getElementById('clicks').innerHTML = data
         })
   </script><h3 id="count">Visitors: <a id="clicks"></a></h3>
 <body>
