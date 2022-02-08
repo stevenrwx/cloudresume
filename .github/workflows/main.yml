@@ -20,4 +20,4 @@ jobs:
         args: --delete
     env:
       AWS_S3_BUCKET: steven-website-01
-      SOURCE_DIR: cloudresume/frontend
+      SOURCE_DIR: frontend
