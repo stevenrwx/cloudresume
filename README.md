@@ -19,11 +19,14 @@ https://cloudresumechallenge.dev/docs/the-challenge/aws/
 
 9. Python for API gateway and Lambda function for the communication between Javascript and DynamoDB
 
-11. Test the Lambda
-
 12. IaC to create everything
 
 13. CI/CD the updates
 
+**TODO**
+-----------
+11. Test the Lambda
 14. Add cloudwatch dashboards
+15. Automate Terraform with Jenkins
+-----------
 
